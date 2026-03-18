@@ -1,27 +1,58 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>瑞的专属入口</title>
-</head>
-<body>
-    <h1>请输入正确口令进入</h1>
-    <input type="text" id="passcode" placeholder="请输入 www.rui.com">
-    <button onclick="verify()">进入</button>
-
-    <script>
-        function verify() {
-            let input = document.getElementById("passcode").value;
-            if (input === "www.rui.com") {
-                alert("验证成功，欢迎进入！");
-                document.body.innerHTML = `
-                    <h1>🎉 你成功进入了瑞的专属页面！</h1>
-                    <p>这是你亲手制作的网页哦。</p>
-                `;
-            } else {
-                alert("口令错误，请输入：www.rui.com");
-            }
+    <title>Hello赫赫</title>
+    <style>
+        body {
+            text-align: center;
+            background: #f8f9fa;
+            padding: 40px;
         }
-    </script>
+
+        h1 {
+            font-size: 42px;
+            color: #ff4081;
+            text-shadow: 2px 2px 8px rgba(255, 64, 129, 0.4);
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #333;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.15);
+        }
+
+        img {
+            width: 600px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        a {
+            display: inline-block;
+            padding: 14px 30px;
+            background: #ff69b4;
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 18px;
+            box-shadow: 0 6px 16px rgba(255,105,180,0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>welcome~~</h1>
+
+    <h3>喵喵喵</h3>
+    <img src="https://s41.ax1x.com/2026/03/18/peefTeJ.jpg" alt="我的IG照片">
+
+    <br><br>
+
+    <h3>❤️❤️❤️❤️</h3>
+    <a href="https://www.bilibili.com/video/BV154421S7zJ/?share_source=copy_web" target="_blank">
+        open that shit
+    </a>
+
 </body>
-</html>               
+</html>
